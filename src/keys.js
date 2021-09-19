@@ -1,9 +1,9 @@
 module.exports = {
 
     database: {
-        host: 'localhost',
-        user: 'root',
-        password: '',
-        database: 'database_links'
+        host: process.env.HOST,
+        user: process.env.USER,
+        password: process.env.PASSWORD,
+        database: process.env.DATABASE
     }
 }
